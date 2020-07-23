@@ -1,0 +1,43 @@
+# Default Config for Faction Core
+# Author: Twiistrz, CodexApple
+
+############################################################
+# +------------------------------------------------------+ #
+# |                  Message Settings                    | #
+# +------------------------------------------------------+ #
+############################################################
+
+messages:
+  prefix: '&f[&bCore&f]'
+  console: '&cOnly players may execute this command!'
+  no-permission: '&cYou do not have permission to execute this command!'
+  unknown-command: '&cUnknown command. Type "/help" for help.'
+  death: '&c&n{player}&c have been pummeled by &n{killer}&c!'
+  firstjoin: '&a{player}&r joined the server for the first time!'
+  join: '&rWelcome back, &a{player}&r!'
+  quit: '&c{player}&r, left!'
+  offline: '&c{target} is currently offline!'
+  heal:
+    self: '&eYou''ve just healed yourself!'
+    other: '&eYou just healed {target}'
+    by: '&eYou''ve been healed by {player}'
+  gamemode:
+    self: '&aGamemode set to {gamemode}!'
+    other: '&aYou set gamemode of {player} to {gamemode-target}'
+    by: '&aGamemode set to {gamemode-target} by {player}'
+  reload:
+    success: '&aCore config.yml reloaded!'
+    failed: '&cError reloading core config.yml, check console for more details!'
+  core:
+    - '&b&l(!)&b Core Commands'
+    - '&b&l *&b /core&7 -&r Displays core commands list'
+    - '&b&l *&b /core reload&7 -&r Reload core messages'
+  help:
+    general:
+      - '&c&l(!)&c Help Commands'
+      - '&c&l *&c /help&7 -&r Displays help commands list'
+      - '&c&l *&c /gamemode&7 -&r Change gamemode'
+    faction:
+      - 'Faction Help Message'
+    admin:
+      - 'Admin Help Message'
