@@ -1,0 +1,29 @@
+name: FactionCore
+version: 1.0.0
+authors: [Twiistrz, CodexApple]
+main: net.mcpzdevs.factioncore.Main
+description: A faction core
+prefix: Core
+
+commands:
+  core:
+    description: Core commands.
+    usage: /<command> [search term] [page]
+    aliases: [fcore,coreadmin]
+  help:
+    description: Views a list of available commands.
+    usage: /<command> [search term] [page]
+    aliases: [?]
+  gamemode:
+    description: Change player gamemode.
+    usage: /<command> <survival|creative|adventure|spectator> [player]
+    aliases: [adventure,creative,survival,spectator,gm,gma,gmc,gms,gmsp]
+  heal:
+    description: Heal player
+    usage: /<command> [player]
+  fly:
+    description: Fly
+    usage: /<command> [player]
+  faction:
+    description: Faction
+    usage: /<command> [search term] [page]

@@ -1,0 +1,12 @@
+net\mcpzdevs\factioncore\commands\CoreCommand.class
+net\mcpzdevs\factioncore\listeners\PlayerDeathListener.class
+net\mcpzdevs\factioncore\listeners\FlyListener.class
+net\mcpzdevs\factioncore\commands\FlyCommand.class
+net\mcpzdevs\factioncore\commands\HelpCommand.class
+net\mcpzdevs\factioncore\listeners\JoinQuitListener.class
+net\mcpzdevs\factioncore\commands\HealCommand.class
+net\mcpzdevs\factioncore\commands\GamemodeCommand.class
+net\mcpzdevs\factioncore\Main.class
+net\mcpzdevs\factioncore\utils\Utils.class
+net\mcpzdevs\factioncore\commands\FactionCommand.class
+net\mcpzdevs\factioncore\handlers\GamemodeHandler.class
